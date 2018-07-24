@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: sans-serif;
+}
+
+.nav-item {
+  width: 100px;
+  transition: .7s;
+}
+
+.nav-justified{
+  width: 300px;
+}
+
+.navbar {
+  height: 50px;
+}
+
+.nav-item:hover {
+  background-color: black;
+  transition: 1s;
+}
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+@media (min-width: 768px) {
+  .nav-justified>li{
+    width: 100px;
+  }
+}
+
+.start {
+  margin-left: 20%;
+}
+
+.nav-logo {
+  transition: .7s;
+  cursor: pointer;
+}
+
+.nav-logo:hover {
+  transition: 1s;
+}

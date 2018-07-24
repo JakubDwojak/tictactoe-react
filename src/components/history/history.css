@@ -1,0 +1,28 @@
+.history-panel {
+  padding: 0 !important;
+}
+
+.history-element {
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: center;
+  transition: .4s;
+  border: 1px solid #eee;
+}
+
+.history-element:hover {
+  background-color: #eee;
+  transition: .5s;
+  border: 1px solid #ccc;
+}
+
+.history-element.active {
+  background-color: #ccc;
+  border: 1px solid black;
+}
+
+hr.history-hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}

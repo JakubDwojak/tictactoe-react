@@ -1,0 +1,35 @@
+.status {
+  vertical-align:top;
+  display: block;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.square-row {
+  height: 52px;
+  width:157px;
+}
+
+.game {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+  /* margin-left: -140px; */
+}
+
+.button {
+  min-width: 50px;
+  margin: 0 10px
+}
+
+.panel {
+  margin: 20px 20%;
+}
+
+.modal{
+  display:block !important;
+}
